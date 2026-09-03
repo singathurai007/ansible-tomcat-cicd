@@ -7,7 +7,7 @@
 
     - name: Copy WAR file to Tomcat
       copy:
-        src: webapp/devops-app.war
+        src: devops-app.war
         dest: /var/lib/tomcat10/webapps/devops-app.war
         owner: root
         group: root
